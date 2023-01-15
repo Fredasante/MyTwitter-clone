@@ -1,0 +1,196 @@
+.profile-picture-container {
+  width: 100%;
+  position: absolute;
+  bottom: -50px;
+  left: 30px;
+}
+
+.profile-picture {
+  width: 130px;
+  height: 130px;
+  border-radius: 90px;
+  border: 4px solid white;
+}
+
+.profile-edit-button {
+  margin-left: 480px;
+  margin-top: 8px;
+  font-weight: bold;
+  border: 1px solid rgb(216, 212, 212);
+  padding: 8px 16px;
+  font-size: 15px;
+  border-radius: 20px;
+  background: white;
+}
+
+.user-name {
+  font-weight: bold;
+  font-size: 20px;
+  margin-top: 25px;
+}
+
+.user-handle {
+  font-size: 14px;
+  color: gray;
+  margin-bottom: 20px;
+}
+
+.user-bio {
+  font-size: 15px;
+  margin-bottom: 10px;
+  
+}
+
+.join-date {
+  color: gray;
+  margin-bottom: 15px;
+  font-size: 15px;
+}
+
+.metrics-container {
+  display: flex;
+  color: gray;
+  margin-bottom: 30px;
+}
+
+.following-stats,
+.followers-stats {
+  font-weight: bold;
+  color: black;
+  font-size: 14px;
+}
+
+.following {
+  margin-right: 20px;
+}
+
+.following,
+.followers {
+  font-size: 14px;
+}
+
+.tweet-division {
+  display: flex;
+  color: gray;
+  align-items: center;
+  justify-content: space-between;
+  width: 600px;
+}
+
+.middle-section {
+  padding-left: 180px;
+
+}
+
+.main-container {
+  display: grid;
+  grid-template-columns: 1fr 450px;
+}
+
+@media (max-width: 750px) {
+  .main-container {
+    grid-template-columns: 1fr;
+  }
+}
+
+.suggestions-container {
+  border: 1px solid lightgray;
+  height: 300px;
+  width: 330px;
+  border-radius: 8px;
+  margin-top: 15px;
+  z-index: 100;
+}
+
+.suggestions {
+  padding: 10px 10px 20px 10px;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.suggestions-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.suggestions-photo {
+  height: 40px;
+  width: 40px;
+  border-radius: 20px;
+}
+
+.suggestions-section {
+  display: flex;
+  padding-bottom: 15px;
+}
+
+.suggestions-photo-container {
+  padding-left: 12px;
+}
+
+.suggestions-text-container {
+  padding-left: 10px;
+  margin-right: auto;
+}
+
+.suggestions-name {
+  font-size: 15px;
+}
+
+.suggestions-handle {
+  color: gray;
+  font-size: 14px;
+}
+
+.suggestions-btn-container {
+  padding-right: 15px;
+}
+
+.suggestions-btn {
+  background: black;
+  color: white;
+  padding: 6px 14px;
+  border-radius: 15px;
+  font-weight: bold;
+}
+
+.suggestions-more {
+  padding-left: 15px;
+  color: rgb(44, 158, 228);
+}
+
+.trends-container {
+  border: 1px solid lightgray;
+  height: 220px;
+  width: 330px;
+  border-radius: 8px;
+  margin-top: 15px;
+}
+
+.trends-container > h1 {
+  padding: 5px 10px 10px 10px;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.trends-text-container {
+  padding-left: 10px; 
+}
+
+.trend-category {
+  color: gray;
+  font-size: 14px;
+  padding-bottom: 7px;
+}
+
+.trend-name {
+  font-weight: bold;
+  padding-bottom: 8px;
+  font-size: 15px;
+}
+
+.trend-stats {
+  color: gray;
+  font-size: 14px;
+  padding-bottom: 20px;
+}

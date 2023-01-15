@@ -1,0 +1,49 @@
+.header-display {
+  position: relative;
+}
+
+.header-picture {
+  height: 220px;
+  width: 600px;
+}
+
+.header {
+  display: flex;
+  height: 45px;
+}
+
+
+.back-arrow {
+  margin-right: 50px;
+}
+
+.tweet-author {
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 2px;
+}
+
+.tweet-stats {
+  font-size: 15px;
+  color: gray;
+}
+
+.search-twitter-container {
+  margin-left: auto;
+  padding-right: 100px;
+}
+
+.search-twitter {
+  padding: 10px 120px 10px 50px;
+  border: 1px solid lightgray;
+  border-radius: 20px;
+  background: rgb(237, 239, 239);
+}
+
+.search-twitter::placeholder {
+  font-size: 14px;
+}
+
+.search-icon {
+  height: 20px;
+}
